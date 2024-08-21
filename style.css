@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
@@ -134,6 +137,11 @@ body {
     width: 2in;
     font-size: 20px;
     box-shadow: 0 3px 10px gray;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .skill:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
   }
   
   .skill img {
